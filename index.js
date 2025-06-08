@@ -1,4 +1,4 @@
 //My first javascript code!
     console.log("Hello world!");
-let name= 'Getch';
-console.log(name);
+let name = 'Getch';
+console.log(`Hello ${name}!`);
