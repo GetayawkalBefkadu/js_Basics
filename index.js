@@ -5,3 +5,6 @@ let name = 'Getch';// string
 console.log(`Hello ${name}!`);
 let age = 20; // number
 console.log(`I am ${age} years old!`);
+//data types
+let isStudent = true; // boolean    
+
