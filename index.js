@@ -19,3 +19,5 @@ let person = {
 console.log(`My name is ${person.name}, I am ${person.age} years old and it is ${person.isStudent} that I am a student.`);
 // or we can use lke this
 console.log(person)
+person.name = 'Getayawkal Befkadu'; // updating the name
+console.log(person).name; // accessing the name
