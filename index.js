@@ -21,3 +21,6 @@ console.log(`My name is ${person.name}, I am ${person.age} years old and it is $
 console.log(person)
 person.name = 'Getayawkal Befkadu'; // updating the name
 console.log(person).name; // accessing the name
+// The Bracket Notation
+person['age'] = 25; // updating the age
+console.log(`I am now ${person['age']} years old!`); // accessing the age   
