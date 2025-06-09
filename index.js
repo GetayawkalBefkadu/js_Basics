@@ -17,3 +17,5 @@ let person = {
     isStudent: true
 };
 console.log(`My name is ${person.name}, I am ${person.age} years old and it is ${person.isStudent} that I am a student.`);
+// or we can use lke this
+console.log(person)
