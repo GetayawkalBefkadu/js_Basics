@@ -10,3 +10,10 @@ let isStudent = true; // boolean
 console.log(`Am I a student? ${isStudent}`); 
 const PI = 3.14; // constant
 console.log(`The value of PI is ${PI}`);
+// have seen the primitives, now let's see the objects
+let person = {
+    name: 'Getch',
+    age: 24,
+    isStudent: true
+};
+console.log(`My name is ${person.name}, I am ${person.age} years old and it is ${person.isStudent} that I am a student.`);
