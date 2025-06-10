@@ -24,3 +24,18 @@ console.log(person).name; // accessing the name
 // The Bracket Notation
 person['age'] = 25; // updating the age
 console.log(`I am now ${person['age']} years old!`); // accessing the age   
+//array
+names = ['Getch', 'Getayawkal', 'Befkadu']; // array of strings
+console.log(`My names are ${names[0]}, ${names[1]} and ${names[2]}`); // accessing the array elements
+// or we can use the for loop to access the array elements
+for (let i = 0; i < names.length; i++) {
+    console.log(`My name is ${names[i]}`);
+}
+// we can also use the forEach method to access the array elements
+names.forEach((name) => {
+    console.log(`My name is ${name}`);
+});
+// we can also use the map method to access the array elements
+let upperCaseNames = names.map((name) => {
+    return name.toUpperCase();
+});
