@@ -127,6 +127,108 @@ if(age >= 21){
     console
 }
 
+// switch optional but good to know!!
+const role = "admin";
+
+switch (role) {
+  case "admin":
+    console.log("Welcome Admin!");
+    break;
+  case "editor":
+    console.log("Welcome Editor!");
+    break;
+  case "viewer":
+    console.log("Welcome Viewer!");
+    break;
+  default:
+    console.log("Unknown role.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
