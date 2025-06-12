@@ -117,3 +117,24 @@ function outerFunction() {
 }           
 // Calling the outer function and then the inner function
 const innerFunc = outerFunction();
+
+const new_age = 20;
+if(age >= 21){
+    console.log("you can drink alchol");
+}else if(new_age >=20 && new_age < 21){
+    console.log("you can drink alchol but not in public places");
+}else{
+    console
+}
+
+
+
+
+
+
+
+
+
+
+
+
