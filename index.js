@@ -159,6 +159,9 @@ const add = (a, b) => {
 };
 
 console.log(add(4, 6)); // Output: "The result is 10"
+// clean and short version of the code
+const add = (a, b) => a + b;
+console.log(add(4, 6)); // Output: 10
 
 
 
