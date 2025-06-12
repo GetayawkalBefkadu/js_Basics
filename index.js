@@ -143,7 +143,10 @@ switch (role) {
   default:
     console.log("Unknown role.");
 }
-
+// function
+function hey(name){
+return `hello dear $(name);`
+}
 
 
 
