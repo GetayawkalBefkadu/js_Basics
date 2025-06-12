@@ -148,6 +148,18 @@ function hey(name){
 return `hello dear $(name);`
 }
 
+// expression function
+
+const greet = (name) => {
+return `hello dear $(name);`
+}
+// arrow function
+const add = (a, b) => {
+  return `The result is ${a + b}`;
+};
+
+console.log(add(4, 6)); // Output: "The result is 10"
+
 
 
 
