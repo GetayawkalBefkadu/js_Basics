@@ -177,6 +177,8 @@ class Person {
     }
 }
 
+// Creating an instance of the class
+const person1 = new Person('Getch', 24);
 
 
 
