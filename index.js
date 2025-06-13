@@ -179,6 +179,19 @@ class Person {
 
 // Creating an instance of the class
 const person1 = new Person('Getch', 24);
+// Calling the greet method
+console.log(person1.greet()); // Output: Hello, my name is Getch and I am 24 years old. 
+// 2. Inheritance
+class Student extends Person {
+    constructor(name, age, major) {
+        super(name, age); // calling the parent class constructor
+        this.major = major; // additional property
+    }
+
+    study() { // additional method
+        return `${this.name} is studying ${this.major}.`;
+    }
+}
 
 
 
