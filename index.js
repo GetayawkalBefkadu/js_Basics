@@ -211,7 +211,23 @@ class MathUtils {
 }
 
 
+//next we will see how to use the static methods
+console.log(MathUtils.add(5, 3)); // Output: 8
+console.log(MathUtils.multiply(4, 6)); // Output: 24    
+// 4. Getters and Setters
+class Circle {
+    constructor(radius) {
+        this.radius = radius; // instance variable
+    }
 
+    get area() { // getter
+        return Math.PI * this.radius * this.radius;
+    }
+
+    set radiusValue(newRadius) { // setter
+        this.radius = newRadius;
+    }
+}
 
 
 
