@@ -193,7 +193,22 @@ class Student extends Person {
     }
 }
 
+// Creating an instance of the Student class
+const student1 = new Student('Getayawkal', 24, 'Computer Science');
+// Calling the inherited method
+console.log(student1.greet()); // Output: Hello, my name is Getayawkal and I am 24 years old.
+// Calling the additional method
+console.log(student1.study()); // Output: Getayawkal is studying Computer Science.
+// 3. Static Methods
+class MathUtils {
+    static add(a, b) { // static method
+        return a + b;
+    }
 
+    static multiply(a, b) { // another static method
+        return a * b;
+    }
+}
 
 
 
