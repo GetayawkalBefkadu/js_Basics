@@ -163,7 +163,19 @@ console.log(add(4, 6)); // Output: "The result is 10"
 const add = (a, b) => a + b;
 console.log(add(4, 6)); // Output: 10
 
+// next we will see about object orinted    
+// programming (OOP) in JavaScript  
+// 1. Class Declaration
+class Person {
+    constructor(name, age) {
+        this.name = name; // instance variable
+        this.age = age;   // instance variable
+    }
 
+    greet() { // method
+        return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
+    }
+}
 
 
 
